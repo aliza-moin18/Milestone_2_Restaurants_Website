@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/component/Footer.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1731259640025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1731259640025,
+            "name": "Commit-0",
+            "content": "// components/Footer.tsx\r\n\r\n\"use client\";\r\n\r\nimport React from 'react';\r\n\r\nconst Footer: React.FC = () => {\r\n  return (\r\n    <footer className=\"footer\">\r\n      <div className='footer-content'>\r\n        <p>© 2024 My Portfolio. All rights reserved.</p>\r\n        <p>Built with ❤ by Aliza Moin</p>\r\n      </div>\r\n    </footer>\r\n  );\r\n};\r\n\r\nexport default Footer;\r\n"
+        }
+    ]
+}

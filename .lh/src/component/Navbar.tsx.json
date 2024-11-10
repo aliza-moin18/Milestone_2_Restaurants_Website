@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/component/Navbar.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1731246696334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1731246705056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <div>\r\n+        \r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246720846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n import React from 'react'\r\n \r\n const Navbar = () => {\r\n   return (\r\n-    <div>\r\n+    <header>\r\n         \r\n-    </div>\r\n   )\r\n }\r\n \r\n export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246731861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header>\r\n+        </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246740659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header>\r\n+        <div>\r\n+            \r\n+        </div>\r\n+    </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246748118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header>\r\n+        <div></div>\r\n+        <div></div>\r\n+    </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246753456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header>\r\n+        <div></div>\r\n+        <div></div>\r\n+        <div></div>\r\n+    </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246763528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header>\r\n+        <div logo></div>\r\n+        <div></div>\r\n+        <div></div>\r\n+    </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246772593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header nav>\r\n+        <div logo></div>\r\n+        <div></div>\r\n+        <div></div>\r\n+    </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246778633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header nav>\r\n+        <div logo></div>\r\n+        <div navigate></div>\r\n+        <div></div>\r\n+    </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246785165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header nav>\r\n+        <div logo></div>\r\n+        <div navigate></div>\r\n+        <div btn></div>\r\n+    </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731246855391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\r\n     <header nav>\r\n         <div logo></div>\r\n         <div navigate>\r\n-            \r\n+            <\r\n         </div>\r\n         <div btn></div>\r\n     </header>\r\n   )\r\n"
+                },
+                {
+                    "date": 1731246861222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import React from 'react'\r\n+\r\n+const Navbar = () => {\r\n+  return (\r\n+    <header nav>\r\n+        <div logo></div>\r\n+        <div navigate>\r\n+            <ul>\r\n+                <li></li>\r\n+            </ul>\r\n+        </div>\r\n+        <div btn></div>\r\n+    </header>\r\n+  )\r\n+}\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1731246696334,
+            "name": "Commit-0",
+            "content": "raf"
+        }
+    ]
+}

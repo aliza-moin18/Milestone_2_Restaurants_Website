@@ -1,95 +1,63 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
 
-export default function Home() {
+import { FiDownload } from "react-icons/fi"; 
+import { FaLinkedin, FaGithub } from "react-icons/fa"; 
+
+const Home = () => {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <section className="home-section">
+      <div className="container">
+        <div className="content-wrapper">
+          <div className="text-section">
+            <h1>
+              Hello I'm <br />
+              <span className="highlight-text">Aliza Moin</span>
+            </h1>
+            <p>
+              "I work as a web developer specializing in creating responsive,
+              beautiful websites. Passionate and meticulous, I transform
+              concepts into powerful digital experiences."
+            </p>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+            <div className="action-buttons">
+              <a href="/My CV file.pdf" className="download-btn">
+                <span>Download CV</span>
+                <FiDownload className="icon" />
+              </a>
+
+              <div className="social-links">
+                <a
+                  href="https://www.linkedin.com/in/aliza-moin-b975a6276/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon"
+                >
+                  <FaLinkedin className="icon" />
+                </a>
+                <a
+                  href="https://github.com/aliza-moin18" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon"
+                >
+                  <FaGithub className="icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Photo Section  */}
+          <div className="photo-section">
+            <img
+              src="/profile.jpeg" 
+              alt="Aliza Moin"
+              className="rounded-full w-40 h-40 object-cover" 
             />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+    </section>
   );
-}
+};
+
+export default Home;

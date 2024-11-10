@@ -1,0 +1,470 @@
+{
+    "sourceFile": "src/app/globals.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 113,
+            "patches": [
+                {
+                    "date": 1731246636238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1731246646659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n *{\n-  padding: \n+  padding: 0px;\n+  margin: 0px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247187663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n *{\n   padding: 0px;\n   margin: 0px;\n-}\n\\ No newline at end of file\n+}\n+\n"
+                },
+                {
+                    "date": 1731247193618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,7 @@\n   padding: 0px;\n   margin: 0px;\n }\n \n+body {\n+  \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247199919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n   margin: 0px;\n }\n \n body {\n-  \n+  background-color: bl;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247209582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: bl;\n+  background-color: black;\n+  color: white\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247267603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,10 @@\n }\n \n body {\n   background-color: black;\n-  color: white\n+  color: white;\n+}\n+\n+.nav {\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247273392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n   color: white;\n }\n \n .nav {\n-  \n+  display: flex;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247279568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,6 @@\n }\n \n .nav {\n   display: flex;\n+  justify-content: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247287346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,6 @@\n }\n \n .nav {\n   display: flex;\n-  justify-content: ;\n+  justify-content: spac;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247295346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,7 @@\n }\n \n .nav {\n   display: flex;\n-  justify-content: spac;\n+  justify-content: space-between;\n+  margin\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247301876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,6 @@\n \n .nav {\n   display: flex;\n   justify-content: space-between;\n-  margin\n+  margin: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247307892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,9 @@\n .nav {\n   display: flex;\n   justify-content: space-between;\n   margin: 20px;\n+}\n+\n+.logo {\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247318182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n   margin: 20px;\n }\n \n .logo {\n-  \n+  font\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247324016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,7 @@\n   margin: 20px;\n }\n \n .logo {\n-  font\n+  font-size: 35px;\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247334033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,6 +15,7 @@\n }\n \n .logo {\n   font-size: 35px;\n+  color: green;\n   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247341440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,6 @@\n \n .logo {\n   font-size: 35px;\n   color: green;\n-  \n+  padding-left: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247346762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n .logo {\n   font-size: 35px;\n   color: green;\n   padding-left: 20px;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1731247352322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,4 +18,8 @@\n   font-size: 35px;\n   color: green;\n   padding-left: 20px;\n }\n+\n+ul {\n+  \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247365118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,6 @@\n   padding-left: 20px;\n }\n \n ul {\n-  \n+  displ\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247372261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,7 @@\n   padding-left: 20px;\n }\n \n ul {\n-  displ\n+  display: flex;\n+  gap:\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247379660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,6 +21,7 @@\n }\n \n ul {\n   display: flex;\n-  gap:\n+  gap: 20px;\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247388475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,6 @@\n \n ul {\n   display: flex;\n   gap: 20px;\n-  \n+  list-style: none;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247394823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,6 @@\n ul {\n   display: flex;\n   gap: 20px;\n   list-style: none;\n+  font\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247400263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,6 @@\n ul {\n   display: flex;\n   gap: 20px;\n   list-style: none;\n-  font\n+  font-size: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247494590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,9 @@\n   display: flex;\n   gap: 20px;\n   list-style: none;\n   font-size: 20px;\n+}\n+\n+.link {\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247568838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,6 +27,6 @@\n   font-size: 20px;\n }\n \n .link {\n-  \n+  color\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247577275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,6 +27,7 @@\n   font-size: 20px;\n }\n \n .link {\n-  color\n+  color:aquamarine;\n+  text\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247582705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,6 +28,6 @@\n }\n \n .link {\n   color:aquamarine;\n-  text\n+  text-decoration: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247601107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,6 +28,10 @@\n }\n \n .link {\n   color:aquamarine;\n-  text-decoration: ;\n+  text-decoration: none;\n+}\n+\n+btn {\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247633621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,7 +31,7 @@\n   color:aquamarine;\n   text-decoration: none;\n }\n \n-btn {\n-  \n+.btn {\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247641307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,7 +31,7 @@\n   color:aquamarine;\n   text-decoration: none;\n }\n \n-.btn {\n+.button {\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247649872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,6 +32,6 @@\n   text-decoration: none;\n }\n \n .button {\n-\n+  padding: 5px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247655742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,5 +33,6 @@\n }\n \n .button {\n   padding: 5px;\n+  font\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247661702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,6 +33,7 @@\n }\n \n .button {\n   padding: 5px;\n-  font\n+  font-size: medium;\n+  bac\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247670068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,6 +34,7 @@\n \n .button {\n   padding: 5px;\n   font-size: medium;\n-  bac\n+  background-color: blueviolet;\n+  color:\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247746598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,10 +31,10 @@\n   color:aquamarine;\n   text-decoration: none;\n }\n \n-.button {\n+.btn {\n   padding: 5px;\n   font-size: medium;\n   background-color: blueviolet;\n-  color:\n+  color: white;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731247967929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n   color:aquamarine;\n   text-decoration: none;\n }\n \n+.butt\n .btn {\n   padding: 5px;\n   font-size: medium;\n   background-color: blueviolet;\n"
+                },
+                {
+                    "date": 1731247976008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,11 @@\n   color:aquamarine;\n   text-decoration: none;\n }\n \n-.butt\n+.button {\n+  padd\n+}\n .btn {\n   padding: 5px;\n   font-size: medium;\n   background-color: blueviolet;\n"
+                },
+                {
+                    "date": 1731247983813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,10 +31,12 @@\n   color:aquamarine;\n   text-decoration: none;\n }\n \n+\n+\n .button {\n-  padd\n+  padding: 10px;\n }\n .btn {\n   padding: 5px;\n   font-size: medium;\n"
+                },
+                {
+                    "date": 1731247994291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,12 +32,16 @@\n   text-decoration: none;\n }\n \n \n+.button {\n+  padding: 10px;\n+}\n \n .button {\n   padding: 10px;\n }\n+\n .btn {\n   padding: 5px;\n   font-size: medium;\n   background-color: blueviolet;\n"
+                },
+                {
+                    "date": 1731247999475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,12 +32,11 @@\n   text-decoration: none;\n }\n \n \n-.button {\n+.button:hover {\n   padding: 10px;\n }\n-\n .button {\n   padding: 10px;\n }\n \n"
+                },
+                {
+                    "date": 1731248009469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n }\n \n \n .button:hover {\n-  padding: 10px;\n+  color: \n }\n .button {\n   padding: 10px;\n }\n"
+                },
+                {
+                    "date": 1731248015542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,10 @@\n }\n \n \n .button:hover {\n-  color: \n+  color:antiquewhite;\n+  \n }\n .button {\n   padding: 10px;\n }\n"
+                },
+                {
+                    "date": 1731248021507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n \n .button:hover {\n   color:antiquewhite;\n-  \n+  background-color: cadetblue;\n }\n .button {\n   padding: 10px;\n }\n"
+                },
+                {
+                    "date": 1731248027864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,13 +31,13 @@\n   color:aquamarine;\n   text-decoration: none;\n }\n \n-\n .button:hover {\n   color:antiquewhite;\n   background-color: cadetblue;\n }\n+\n .button {\n   padding: 10px;\n }\n \n"
+                },
+                {
+                    "date": 1731249695646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,5 +45,6 @@\n   padding: 5px;\n   font-size: medium;\n   background-color: blueviolet;\n   color: white;\n-}\n\\ No newline at end of file\n+}\n+\n"
+                },
+                {
+                    "date": 1731249717454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,44 +7,112 @@\n   background-color: black;\n   color: white;\n }\n \n-.nav {\n+\n+/* General Section Styles */\n+.home-section {\n+  height: 100%;\n+  padding-top: 0;\n+  padding-bottom: 0;\n+  margin-left: 2rem; /* Adjust as necessary */\n+}\n+\n+.container {\n+  max-width: 1200px;\n+  margin: 0 auto;\n+  padding: 0 2rem;\n+}\n+\n+.content-wrapper {\n   display: flex;\n+  flex-direction: column;\n+  align-items: center;\n   justify-content: space-between;\n-  margin: 20px;\n+  padding-top: 3rem;\n+  padding-bottom: 3rem;\n }\n \n-.logo {\n-  font-size: 35px;\n-  color: green;\n-  padding-left: 20px;\n+.text-section {\n+  text-align: center;\n }\n \n-ul {\n+.text-section h1 {\n+  margin-bottom: 1.25rem;\n+}\n+\n+.highlight-text {\n+  background: linear-gradient(90deg, #bd1ce1, #9d36ab, #e3c9e6);\n+  -webkit-background-clip: text;\n+  color: transparent;\n+}\n+\n+.text-section p {\n+  max-width: 540px;\n+  margin-bottom: 1.5rem;\n+  color: rgba(255, 255, 255, 0.9);\n+}\n+\n+.action-buttons {\n   display: flex;\n-  gap: 20px;\n-  list-style: none;\n-  font-size: 20px;\n+  flex-direction: column;\n+  gap: 1.25rem;\n+  align-items: center;\n }\n \n-.link {\n-  color:aquamarine;\n+.download-btn {\n+  display: flex;\n+  align-items: center;\n+  gap: 0.5rem;\n+  background-color: #932daa;\n+  color: #932daa;\n+  border: 1px solid #9615db;\n+  padding: 1rem 1.5rem;\n+  font-weight: bold;\n+  text-transform: uppercase;\n+  transition: all 0.3s ease;\n+  border-radius: 4px;\n   text-decoration: none;\n }\n \n-.button:hover {\n-  color:antiquewhite;\n-  background-color: cadetblue;\n+.download-btn:hover {\n+  background-color: #bd59d3;\n+  color: white;\n+  border-color: #932daa;\n }\n \n-.button {\n-  padding: 10px;\n+.icon {\n+  font-size: 1.25rem;\n+  color: white;\n }\n \n-.btn {\n-  padding: 5px;\n-  font-size: medium;\n-  background-color: blueviolet;\n+.social-links {\n+  margin-top: 2rem;\n+}\n+\n+.photo-section {\n+  margin-top: 2rem;\n+}\n+\n+/* Social Icon Styles */\n+.social-container {\n+  display: flex;\n+  gap: 1rem;\n+}\n+\n+.social-icon {\n+  width: 2.5rem;\n+  height: 2.5rem;\n+  border: 1px solid #9615db;\n+  border-radius: 6px;\n+  display: flex;\n+  justify-content: center;\n+  align-items: center;\n+  color: #9615db;\n+  font-size: 1rem;\n+  transition: all 0.3s ease;\n+}\n+\n+.social-icon:hover {\n+  background-color: #333;\n   color: white;\n }\n-\n"
+                },
+                {
+                    "date": 1731250429861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,131 @@\n body {\n   background-color: black;\n   color: white;\n }\n+/* General Section Styles */\n+.home-section {\n+  height: 100%;\n+  padding-top: 0;\n+  padding-bottom: 0;\n+  margin-left: 2rem; /* Adjust as necessary */\n+}\n \n+.container {\n+  max-width: 1200px;\n+  margin: 0 auto;\n+  padding: 0 2rem;\n+}\n \n+.content-wrapper {\n+  display: flex;\n+  flex-direction: column;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding-top: 3rem;\n+  padding-bottom: 3rem;\n+}\n+\n+.text-section {\n+  text-align: center;\n+}\n+\n+.text-section h1 {\n+  margin-bottom: 1.25rem;\n+}\n+\n+.highlight-text {\n+  background: linear-gradient(90deg, #bd1ce1, #9d36ab, #e3c9e6);\n+  -webkit-background-clip: text;\n+  color: transparent;\n+}\n+\n+.text-section p {\n+  max-width: 540px;\n+  margin-bottom: 1.5rem;\n+  color: rgba(255, 255, 255, 0.9);\n+}\n+\n+.action-buttons {\n+  display: flex;\n+  flex-direction: column;\n+  gap: 1.25rem;\n+  align-items: center;\n+}\n+\n+.download-btn {\n+  display: flex;\n+  align-items: center;\n+  gap: 0.5rem;\n+  background-color: #932daa;\n+  color: #932daa;\n+  border: 1px solid #9615db;\n+  padding: 1rem 1.5rem;\n+  font-weight: bold;\n+  text-transform: uppercase;\n+  transition: all 0.3s ease;\n+  border-radius: 4px;\n+  text-decoration: none;\n+}\n+\n+.download-btn:hover {\n+  background-color: #bd59d3;\n+  color: white;\n+  border-color: #932daa;\n+}\n+\n+.icon {\n+  font-size: 1.25rem;\n+  color: white;\n+}\n+\n+/* Social Icon Styles */\n+.social-links {\n+  margin-top: 2rem;\n+  display: flex;\n+  gap: 1.5rem;\n+  justify-content: center;\n+}\n+\n+.social-icon {\n+  width: 2.5rem;\n+  height: 2.5rem;\n+  border: 1px solid #9615db;\n+  border-radius: 6px;\n+  display: flex;\n+  justify-content: center;\n+  align-items: center;\n+  color: #9615db;\n+  font-size: 1.5rem;\n+  transition: all 0.3s ease;\n+}\n+\n+.social-icon:hover {\n+  background-color: #333;\n+  color: white;\n+}\n+\n+/* Optional: Add some additional styling to ensure responsiveness */\n+@media (max-width: 768px) {\n+  .content-wrapper {\n+    padding-top: 2rem;\n+    padding-bottom: 2rem;\n+  }\n+\n+  .text-section p {\n+    max-width: 90%;\n+  }\n+\n+  .action-buttons {\n+    flex-direction: row;\n+    gap: 1rem;\n+  }\n+\n+  .download-btn {\n+    padding: 0.8rem 1.2rem;\n+  }\n+}\n+\n /* General Section Styles */\n .home-section {\n   height: 100%;\n   padding-top: 0;\n"
+                },
+                {
+                    "date": 1731250447226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: black;\n+  background-color: rgb(213, 213, 213);\n   color: white;\n }\n /* General Section Styles */\n .home-section {\n@@ -127,113 +127,5 @@\n \n   .download-btn {\n     padding: 0.8rem 1.2rem;\n   }\n-}\n-\n-/* General Section Styles */\n-.home-section {\n-  height: 100%;\n-  padding-top: 0;\n-  padding-bottom: 0;\n-  margin-left: 2rem; /* Adjust as necessary */\n-}\n-\n-.container {\n-  max-width: 1200px;\n-  margin: 0 auto;\n-  padding: 0 2rem;\n-}\n-\n-.content-wrapper {\n-  display: flex;\n-  flex-direction: column;\n-  align-items: center;\n-  justify-content: space-between;\n-  padding-top: 3rem;\n-  padding-bottom: 3rem;\n-}\n-\n-.text-section {\n-  text-align: center;\n-}\n-\n-.text-section h1 {\n-  margin-bottom: 1.25rem;\n-}\n-\n-.highlight-text {\n-  background: linear-gradient(90deg, #bd1ce1, #9d36ab, #e3c9e6);\n-  -webkit-background-clip: text;\n-  color: transparent;\n-}\n-\n-.text-section p {\n-  max-width: 540px;\n-  margin-bottom: 1.5rem;\n-  color: rgba(255, 255, 255, 0.9);\n-}\n-\n-.action-buttons {\n-  display: flex;\n-  flex-direction: column;\n-  gap: 1.25rem;\n-  align-items: center;\n-}\n-\n-.download-btn {\n-  display: flex;\n-  align-items: center;\n-  gap: 0.5rem;\n-  background-color: #932daa;\n-  color: #932daa;\n-  border: 1px solid #9615db;\n-  padding: 1rem 1.5rem;\n-  font-weight: bold;\n-  text-transform: uppercase;\n-  transition: all 0.3s ease;\n-  border-radius: 4px;\n-  text-decoration: none;\n-}\n-\n-.download-btn:hover {\n-  background-color: #bd59d3;\n-  color: white;\n-  border-color: #932daa;\n-}\n-\n-.icon {\n-  font-size: 1.25rem;\n-  color: white;\n-}\n-\n-.social-links {\n-  margin-top: 2rem;\n-}\n-\n-.photo-section {\n-  margin-top: 2rem;\n-}\n-\n-/* Social Icon Styles */\n-.social-container {\n-  display: flex;\n-  gap: 1rem;\n-}\n-\n-.social-icon {\n-  width: 2.5rem;\n-  height: 2.5rem;\n-  border: 1px solid #9615db;\n-  border-radius: 6px;\n-  display: flex;\n-  justify-content: center;\n-  align-items: center;\n-  color: #9615db;\n-  font-size: 1rem;\n-  transition: all 0.3s ease;\n-}\n-\n-.social-icon:hover {\n-  background-color: #333;\n-  color: white;\n-}\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731250452633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n \n body {\n   background-color: rgb(213, 213, 213);\n-  color: white;\n+  color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n   height: 100%;\n"
+                },
+                {
+                    "date": 1731250461939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(213, 213, 213);\n+  background-color: rgb(247, 238, 238);\n   color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n"
+                },
+                {
+                    "date": 1731250471357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(247, 238, 238);\n+  background-color: rgb(0, 0, 0);\n   color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n"
+                },
+                {
+                    "date": 1731250486043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(0, 0, 0);\n+  background-color: rgb(255, 255, 255);\n   color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n"
+                },
+                {
+                    "date": 1731250525064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(255, 255, 255);\n+  background-color: rgb(254, 255, 246);\n   color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n"
+                },
+                {
+                    "date": 1731250544341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(254, 255, 246);\n+  background-color: rgb(240, 246, 210);\n   color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n@@ -38,9 +38,9 @@\n   margin-bottom: 1.25rem;\n }\n \n .highlight-text {\n-  background: linear-gradient(90deg, #bd1ce1, #9d36ab, #e3c9e6);\n+  background: linear-gradient(90deg, #bd1ce1, #7f5485, #e3c9e6);\n   -webkit-background-clip: text;\n   color: transparent;\n }\n \n"
+                },
+                {
+                    "date": 1731250551527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n   margin-bottom: 1.25rem;\n }\n \n .highlight-text {\n-  background: linear-gradient(90deg, #bd1ce1, #7f5485, #e3c9e6);\n+  background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n   -webkit-background-clip: text;\n   color: transparent;\n }\n \n"
+                },
+                {
+                    "date": 1731250566434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n \n .text-section p {\n   max-width: 540px;\n   margin-bottom: 1.5rem;\n-  color: rgba(255, 255, 255, 0.9);\n+  color: black;\n }\n \n .action-buttons {\n   display: flex;\n"
+                },
+                {
+                    "date": 1731250575424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n .download-btn {\n   display: flex;\n   align-items: center;\n   gap: 0.5rem;\n-  background-color: #932daa;\n+  background-color: ;\n   color: #932daa;\n   border: 1px solid #9615db;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n"
+                },
+                {
+                    "date": 1731250582560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,10 +60,10 @@\n .download-btn {\n   display: flex;\n   align-items: center;\n   gap: 0.5rem;\n-  background-color: ;\n-  color: #932daa;\n+  background-color: green;\n+  color: ;\n   border: 1px solid #9615db;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n   text-transform: uppercase;\n"
+                },
+                {
+                    "date": 1731250607721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   display: flex;\n   align-items: center;\n   gap: 0.5rem;\n   background-color: green;\n-  color: ;\n+  color: white;\n   border: 1px solid #9615db;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n   text-transform: uppercase;\n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: #bd59d3;\n+  background-color: ;\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250613641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: ;\n+  background-color: gree;\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250629591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: gree;\n+  background-color: rgb(96, 189, 124);\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250644578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: rgb(96, 189, 124);\n+  background-color: rgb(96, 189, 178);\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250663239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n .download-btn {\n   display: flex;\n   align-items: center;\n   gap: 0.5rem;\n-  background-color: green;\n+  background-color: green;rgb(96, 189, 178);\n   color: white;\n   border: 1px solid #9615db;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n"
+                },
+                {
+                    "date": 1731250673064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n .download-btn {\n   display: flex;\n   align-items: center;\n   gap: 0.5rem;\n-  background-color: green;rgb(96, 189, 178);\n+  background-color: rgb(96, 189, 178);\n   color: white;\n   border: 1px solid #9615db;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: rgb(96, 189, 178);\n+  background-color: ;\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250685177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: ;\n+  background-color: rgb(90, 150, 147);\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250698595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: rgb(90, 150, 147);\n+  background-color: rgb(104, 205, 200);\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250708876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: rgb(104, 205, 200);\n+  background-color: rgb(52, 154, 149);\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250718161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: rgb(52, 154, 149);\n+  background-color: rgb(72, 102, 100);\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250729690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: rgb(72, 102, 100);\n+  background-color: rgb(107, 201, 196);\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250735266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: rgb(107, 201, 196);\n+  background-color: rgb(53, 119, 115);\n   color: white;\n   border-color: #932daa;\n }\n \n"
+                },
+                {
+                    "date": 1731250747263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,11 +72,11 @@\n   text-decoration: none;\n }\n \n .download-btn:hover {\n-  background-color: rgb(53, 119, 115);\n+  background-color: rgb(72, 133, 130);\n   color: white;\n-  border-color: #932daa;\n+  border-color: ;\n }\n \n .icon {\n   font-size: 1.25rem;\n"
+                },
+                {
+                    "date": 1731250777118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n   align-items: center;\n   gap: 0.5rem;\n   background-color: rgb(96, 189, 178);\n   color: white;\n-  border: 1px solid #9615db;\n+  border: 1px solid #d4db15;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n   text-transform: uppercase;\n   transition: all 0.3s ease;\n@@ -74,9 +74,9 @@\n \n .download-btn:hover {\n   background-color: rgb(72, 133, 130);\n   color: white;\n-  border-color: ;\n+  border-color: black;\n }\n \n .icon {\n   font-size: 1.25rem;\n"
+                },
+                {
+                    "date": 1731250786161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n   align-items: center;\n   gap: 0.5rem;\n   background-color: rgb(96, 189, 178);\n   color: white;\n-  border: 1px solid #d4db15;\n+  border: 1px solid #5adb15;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n   text-transform: uppercase;\n   transition: all 0.3s ease;\n"
+                },
+                {
+                    "date": 1731250796232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n   align-items: center;\n   gap: 0.5rem;\n   background-color: rgb(96, 189, 178);\n   color: white;\n-  border: 1px solid #5adb15;\n+  border: 1px solid #db8f15;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n   text-transform: uppercase;\n   transition: all 0.3s ease;\n"
+                },
+                {
+                    "date": 1731250810278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n   align-items: center;\n   gap: 0.5rem;\n   background-color: rgb(96, 189, 178);\n   color: white;\n-  border: 1px solid #db8f15;\n+  border: 1px solid #26db15;\n   padding: 1rem 1.5rem;\n   font-weight: bold;\n   text-transform: uppercase;\n   transition: all 0.3s ease;\n"
+                },
+                {
+                    "date": 1731250831555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n }\n \n .icon {\n   font-size: 1.25rem;\n-  color: white;\n+  color: rgb(255, 255, 255);\n }\n \n /* Social Icon Styles */\n .social-links {\n"
+                },
+                {
+                    "date": 1731250838480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n }\n \n .icon {\n   font-size: 1.25rem;\n-  color: rgb(255, 255, 255);\n+  color: rgb(19, 88, 216);\n }\n \n /* Social Icon Styles */\n .social-links {\n"
+                },
+                {
+                    "date": 1731250857517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(240, 246, 210);\n+  background-color: rgb(253, 255, 241);\n   color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n"
+                },
+                {
+                    "date": 1731250867695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(253, 255, 241);\n+  background-color: rgb(243, 241, 255);\n   color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n"
+                },
+                {
+                    "date": 1731250874450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(243, 241, 255);\n+  background-color: rgb(211, 255, 228);\n   color: rgb(0, 0, 0);\n }\n /* General Section Styles */\n .home-section {\n"
+                },
+                {
+                    "date": 1731250886121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n body {\n   background-color: rgb(211, 255, 228);\n   color: rgb(0, 0, 0);\n }\n+\n /* General Section Styles */\n .home-section {\n   height: 100%;\n   padding-top: 0;\n"
+                },
+                {
+                    "date": 1731250931172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,18 +3,18 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(211, 255, 228);\n+  background-color: rgb(223, 255, 235);\n   color: rgb(0, 0, 0);\n }\n \n /* General Section Styles */\n .home-section {\n   height: 100%;\n   padding-top: 0;\n   padding-bottom: 0;\n-  margin-left: 2rem; /* Adjust as necessary */\n+  margin-left: 2rem; \n }\n \n .container {\n   max-width: 1200px;\n"
+                },
+                {
+                    "date": 1731251117077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n \n body {\n   background-color: rgb(223, 255, 235);\n   color: rgb(0, 0, 0);\n+  fon\n }\n \n /* General Section Styles */\n .home-section {\n"
+                },
+                {
+                    "date": 1731251145270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,14 +5,14 @@\n \n body {\n   background-color: rgb(223, 255, 235);\n   color: rgb(0, 0, 0);\n-  fon\n+  font-family: Arial, Helvetica, sans-serif;\n }\n \n /* General Section Styles */\n .home-section {\n-  height: 100%;\n+  height: 50;\n   padding-top: 0;\n   padding-bottom: 0;\n   margin-left: 2rem; \n }\n"
+                },
+                {
+                    "date": 1731251354751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  height: 50;\n+  height: %;\n   padding-top: 0;\n   padding-bottom: 0;\n   margin-left: 2rem; \n }\n"
+                },
+                {
+                    "date": 1731251372339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  height: %;\n+  height: 80%;\n   padding-top: 0;\n   padding-bottom: 0;\n   margin-left: 2rem; \n }\n"
+                },
+                {
+                    "date": 1731251377892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n /* General Section Styles */\n .home-section {\n   height: 80%;\n-  padding-top: 0;\n+  padding-top: 20px;\n   padding-bottom: 0;\n   margin-left: 2rem; \n }\n \n"
+                },
+                {
+                    "date": 1731251383573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n /* General Section Styles */\n .home-section {\n   height: 80%;\n-  padding-top: 20px;\n+  padding-top: 70px;\n   padding-bottom: 0;\n   margin-left: 2rem; \n }\n \n"
+                },
+                {
+                    "date": 1731251399282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .home-section {\n   height: 80%;\n   padding-top: 70px;\n   padding-bottom: 0;\n-  margin-left: 2rem; \n+  margin: 2rem; \n }\n \n .container {\n   max-width: 1200px;\n"
+                },
+                {
+                    "date": 1731251413552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,13 +13,13 @@\n .home-section {\n   height: 80%;\n   padding-top: 70px;\n   padding-bottom: 0;\n-  margin: 2rem; \n+  margin: 20px; \n }\n \n .container {\n-  max-width: 1200px;\n+  max-width: 1000px;\n   margin: 0 auto;\n   padding: 0 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1731251420501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   margin: 20px; \n }\n \n .container {\n-  max-width: 1000px;\n+  max-width: 00px;\n   margin: 0 auto;\n   padding: 0 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1731251434111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   margin: 20px; \n }\n \n .container {\n-  max-width: 00px;\n+  max-width: 800px;\n   margin: 0 auto;\n   padding: 0 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1731251560886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   background-color: rgb(223, 255, 235);\n   color: rgb(0, 0, 0);\n   font-family: Arial, Helvetica, sans-serif;\n }\n-\n+/* \n /* General Section Styles */\n .home-section {\n   height: 80%;\n   padding-top: 70px;\n@@ -56,9 +56,9 @@\n   display: flex;\n   flex-direction: column;\n   gap: 1.25rem;\n   align-items: center;\n-}\n+} */\n \n .download-btn {\n   display: flex;\n   align-items: center;\n"
+                },
+                {
+                    "date": 1731251570971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,58 +8,9 @@\n   color: rgb(0, 0, 0);\n   font-family: Arial, Helvetica, sans-serif;\n }\n /* \n-/* General Section Styles */\n-.home-section {\n-  height: 80%;\n-  padding-top: 70px;\n-  padding-bottom: 0;\n-  margin: 20px; \n-}\n \n-.container {\n-  max-width: 800px;\n-  margin: 0 auto;\n-  padding: 0 2rem;\n-}\n-\n-.content-wrapper {\n-  display: flex;\n-  flex-direction: column;\n-  align-items: center;\n-  justify-content: space-between;\n-  padding-top: 3rem;\n-  padding-bottom: 3rem;\n-}\n-\n-.text-section {\n-  text-align: center;\n-}\n-\n-.text-section h1 {\n-  margin-bottom: 1.25rem;\n-}\n-\n-.highlight-text {\n-  background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n-  -webkit-background-clip: text;\n-  color: transparent;\n-}\n-\n-.text-section p {\n-  max-width: 540px;\n-  margin-bottom: 1.5rem;\n-  color: black;\n-}\n-\n-.action-buttons {\n-  display: flex;\n-  flex-direction: column;\n-  gap: 1.25rem;\n-  align-items: center;\n-} */\n-\n .download-btn {\n   display: flex;\n   align-items: center;\n   gap: 0.5rem;\n"
+                },
+                {
+                    "date": 1731251580275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n   background-color: rgb(223, 255, 235);\n   color: rgb(0, 0, 0);\n   font-family: Arial, Helvetica, sans-serif;\n }\n-/* \n \n+\n .download-btn {\n   display: flex;\n   align-items: center;\n   gap: 0.5rem;\n@@ -80,5 +80,13 @@\n \n   .download-btn {\n     padding: 0.8rem 1.2rem;\n   }\n-}\n\\ No newline at end of file\n+}\n+\n+\n+\n+\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1731251606455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,75 @@\n   color: rgb(0, 0, 0);\n   font-family: Arial, Helvetica, sans-serif;\n }\n \n+/* General Section Styles */\n+.home-section {\n+  padding: 50px 20px;\n+  background-color: #f9f9f9;\n+}\n \n+.container {\n+  max-width: 800px;\n+  margin: 0 auto;\n+  display: flex;\n+  justify-content: center;\n+}\n+\n+.content-wrapper {\n+  display: flex;\n+  flex-direction: row;\n+  align-items: center;\n+  gap: 2rem;\n+  padding: 2rem;\n+}\n+\n+/* Photo Section Styles */\n+.photo-section {\n+  flex: 1;\n+  display: flex;\n+  justify-content: center;\n+}\n+\n+.profile-photo {\n+  width: 200px;\n+  height: 200px;\n+  border-radius: 50%;\n+  object-fit: cover;\n+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);\n+}\n+\n+/* Text Section Styles */\n+.text-section {\n+  flex: 2;\n+  text-align: left;\n+  color: black;\n+}\n+\n+.text-section h1 {\n+  margin-bottom: 1.25rem;\n+  font-size: 2rem;\n+}\n+\n+.highlight-text {\n+  background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n+  -webkit-background-clip: text;\n+  color: transparent;\n+}\n+\n+.text-section p {\n+  max-width: 540px;\n+  margin-bottom: 1.5rem;\n+  color: #333;\n+}\n+\n+.action-buttons {\n+  display: flex;\n+  flex-direction: row;\n+  gap: 1.25rem;\n+  align-items: center;\n+}\n+\n .download-btn {\n   display: flex;\n   align-items: center;\n   gap: 0.5rem;\n@@ -89,4 +155,54 @@\n \n \n \n \n+\n+/* General Section Styles */\n+.home-section {\n+  height: 80%;\n+  padding-top: 70px;\n+  padding-bottom: 0;\n+  margin: 20px; \n+}\n+\n+.container {\n+  max-width: 800px;\n+  margin: 0 auto;\n+  padding: 0 2rem;\n+}\n+\n+.content-wrapper {\n+  display: flex;\n+  flex-direction: column;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding-top: 3rem;\n+  padding-bottom: 3rem;\n+}\n+\n+.text-section {\n+  text-align: center;\n+}\n+\n+.text-section h1 {\n+  margin-bottom: 1.25rem;\n+}\n+\n+.highlight-text {\n+  background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n+  -webkit-background-clip: text;\n+  color: transparent;\n+}\n+\n+.text-section p {\n+  max-width: 540px;\n+  margin-bottom: 1.5rem;\n+  color: black;\n+}\n+\n+.action-buttons {\n+  display: flex;\n+  flex-direction: column;\n+  gap: 1.25rem;\n+  align-items: center;\n+} */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731251614217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,8 @@\n }\n \n .highlight-text {\n   background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n-  -webkit-background-clip: text;\n   color: transparent;\n }\n \n .text-section p {\n"
+                },
+                {
+                    "date": 1731251627309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,9 @@\n \n \n \n /* General Section Styles */\n-.home-section {\n+/* .home-section {\n   height: 80%;\n   padding-top: 70px;\n   padding-bottom: 0;\n   margin: 20px; \n@@ -203,5 +203,5 @@\n   display: flex;\n   flex-direction: column;\n   gap: 1.25rem;\n   align-items: center;\n-} */\n\\ No newline at end of file\n+} */ */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731251652480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  padding: 50px 20px;\n+  padding: 30px 20px;\n   background-color: #f9f9f9;\n }\n \n .container {\n@@ -203,5 +203,5 @@\n   display: flex;\n   flex-direction: column;\n   gap: 1.25rem;\n   align-items: center;\n-} */ */\n\\ No newline at end of file\n+} */ \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731251658133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  padding: 30px 20px;\n+  padding: 10px 20px;\n   background-color: #f9f9f9;\n }\n \n .container {\n"
+                },
+                {
+                    "date": 1731251668700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  padding: 10px 20px;\n+  padding: 10px 0px;\n   background-color: #f9f9f9;\n }\n \n .container {\n"
+                },
+                {
+                    "date": 1731251679206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  padding: 10px 0px;\n+  padding: 100px 20px;\n   background-color: #f9f9f9;\n }\n \n .container {\n"
+                },
+                {
+                    "date": 1731251684885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0px;\n }\n \n body {\n-  background-color: rgb(223, 255, 235);\n+  background-color: rgb(172, 181, 55);\n   color: rgb(0, 0, 0);\n   font-family: Arial, Helvetica, sans-serif;\n }\n \n"
+                },
+                {
+                    "date": 1731251698012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,207 @@\n+*{\n+  padding: 0px;\n+  margin: 0px;\n+}\n+\n+body {\n+  background-color: rgb(74, 76, 43);\n+  color: rgb(0, 0, 0);\n+  font-family: Arial, Helvetica, sans-serif;\n+}\n+\n+/* General Section Styles */\n+.home-section {\n+  padding: 100px 20px;\n+  background-color: #f9f9f9;\n+}\n+\n+.container {\n+  max-width: 800px;\n+  margin: 0 auto;\n+  display: flex;\n+  justify-content: center;\n+}\n+\n+.content-wrapper {\n+  display: flex;\n+  flex-direction: row;\n+  align-items: center;\n+  gap: 2rem;\n+  padding: 2rem;\n+}\n+\n+/* Photo Section Styles */\n+.photo-section {\n+  flex: 1;\n+  display: flex;\n+  justify-content: center;\n+}\n+\n+.profile-photo {\n+  width: 200px;\n+  height: 200px;\n+  border-radius: 50%;\n+  object-fit: cover;\n+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);\n+}\n+\n+/* Text Section Styles */\n+.text-section {\n+  flex: 2;\n+  text-align: left;\n+  color: black;\n+}\n+\n+.text-section h1 {\n+  margin-bottom: 1.25rem;\n+  font-size: 2rem;\n+}\n+\n+.highlight-text {\n+  background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n+  color: transparent;\n+}\n+\n+.text-section p {\n+  max-width: 540px;\n+  margin-bottom: 1.5rem;\n+  color: #333;\n+}\n+\n+.action-buttons {\n+  display: flex;\n+  flex-direction: row;\n+  gap: 1.25rem;\n+  align-items: center;\n+}\n+\n+.download-btn {\n+  display: flex;\n+  align-items: center;\n+  gap: 0.5rem;\n+  background-color: rgb(96, 189, 178);\n+  color: white;\n+  border: 1px solid #26db15;\n+  padding: 1rem 1.5rem;\n+  font-weight: bold;\n+  text-transform: uppercase;\n+  transition: all 0.3s ease;\n+  border-radius: 4px;\n+  text-decoration: none;\n+}\n+\n+.download-btn:hover {\n+  background-color: rgb(72, 133, 130);\n+  color: white;\n+  border-color: black;\n+}\n+\n+.icon {\n+  font-size: 1.25rem;\n+  color: rgb(19, 88, 216);\n+}\n+\n+/* Social Icon Styles */\n+.social-links {\n+  margin-top: 2rem;\n+  display: flex;\n+  gap: 1.5rem;\n+  justify-content: center;\n+}\n+\n+.social-icon {\n+  width: 2.5rem;\n+  height: 2.5rem;\n+  border: 1px solid #9615db;\n+  border-radius: 6px;\n+  display: flex;\n+  justify-content: center;\n+  align-items: center;\n+  color: #9615db;\n+  font-size: 1.5rem;\n+  transition: all 0.3s ease;\n+}\n+\n+.social-icon:hover {\n+  background-color: #333;\n+  color: white;\n+}\n+\n+/* Optional: Add some additional styling to ensure responsiveness */\n+@media (max-width: 768px) {\n+  .content-wrapper {\n+    padding-top: 2rem;\n+    padding-bottom: 2rem;\n+  }\n+\n+  .text-section p {\n+    max-width: 90%;\n+  }\n+\n+  .action-buttons {\n+    flex-direction: row;\n+    gap: 1rem;\n+  }\n+\n+  .download-btn {\n+    padding: 0.8rem 1.2rem;\n+  }\n+}\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+/* General Section Styles */\n+/* .home-section {\n+  height: 80%;\n+  padding-top: 70px;\n+  padding-bottom: 0;\n+  margin: 20px; \n+}\n+\n+.container {\n+  max-width: 800px;\n+  margin: 0 auto;\n+  padding: 0 2rem;\n+}\n+\n+.content-wrapper {\n+  display: flex;\n+  flex-direction: column;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding-top: 3rem;\n+  padding-bottom: 3rem;\n+}\n+\n+.text-section {\n+  text-align: center;\n+}\n+\n+.text-section h1 {\n+  margin-bottom: 1.25rem;\n+}\n+\n+.highlight-text {\n+  background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n+  -webkit-background-clip: text;\n+  color: transparent;\n+}\n+\n+.text-section p {\n+  max-width: 540px;\n+  margin-bottom: 1.5rem;\n+  color: black;\n+}\n+\n+.action-buttons {\n+  display: flex;\n+  flex-direction: column;\n+  gap: 1.25rem;\n+  align-items: center;\n+} */ \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731251708908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,224 +9,14 @@\n   font-family: Arial, Helvetica, sans-serif;\n }\n \n /* General Section Styles */\n-.home-section {\n-  padding: 100px 20px;\n-  background-color: #f9f9f9;\n-}\n \n-.container {\n-  max-width: 800px;\n-  margin: 0 auto;\n-  display: flex;\n-  justify-content: center;\n-}\n \n-.content-wrapper {\n-  display: flex;\n-  flex-direction: row;\n-  align-items: center;\n-  gap: 2rem;\n-  padding: 2rem;\n-}\n-\n-/* Photo Section Styles */\n-.photo-section {\n-  flex: 1;\n-  display: flex;\n-  justify-content: center;\n-}\n-\n-.profile-photo {\n-  width: 200px;\n-  height: 200px;\n-  border-radius: 50%;\n-  object-fit: cover;\n-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);\n-}\n-\n-/* Text Section Styles */\n-.text-section {\n-  flex: 2;\n-  text-align: left;\n-  color: black;\n-}\n-\n-.text-section h1 {\n-  margin-bottom: 1.25rem;\n-  font-size: 2rem;\n-}\n-\n-.highlight-text {\n-  background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n-  color: transparent;\n-}\n-\n-.text-section p {\n-  max-width: 540px;\n-  margin-bottom: 1.5rem;\n-  color: #333;\n-}\n-\n-.action-buttons {\n-  display: flex;\n-  flex-direction: row;\n-  gap: 1.25rem;\n-  align-items: center;\n-}\n-\n-.download-btn {\n-  display: flex;\n-  align-items: center;\n-  gap: 0.5rem;\n-  background-color: rgb(96, 189, 178);\n-  color: white;\n-  border: 1px solid #26db15;\n-  padding: 1rem 1.5rem;\n-  font-weight: bold;\n-  text-transform: uppercase;\n-  transition: all 0.3s ease;\n-  border-radius: 4px;\n-  text-decoration: none;\n-}\n-\n-.download-btn:hover {\n-  background-color: rgb(72, 133, 130);\n-  color: white;\n-  border-color: black;\n-}\n-\n-.icon {\n-  font-size: 1.25rem;\n-  color: rgb(19, 88, 216);\n-}\n-\n-/* Social Icon Styles */\n-.social-links {\n-  margin-top: 2rem;\n-  display: flex;\n-  gap: 1.5rem;\n-  justify-content: center;\n-}\n-\n-.social-icon {\n-  width: 2.5rem;\n-  height: 2.5rem;\n-  border: 1px solid #9615db;\n-  border-radius: 6px;\n-  display: flex;\n-  justify-content: center;\n-  align-items: center;\n-  color: #9615db;\n-  font-size: 1.5rem;\n-  transition: all 0.3s ease;\n-}\n-\n-.social-icon:hover {\n-  background-color: #333;\n-  color: white;\n-}\n-\n-/* Optional: Add some additional styling to ensure responsiveness */\n-@media (max-width: 768px) {\n-  .content-wrapper {\n-    padding-top: 2rem;\n-    padding-bottom: 2rem;\n-  }\n-\n-  .text-section p {\n-    max-width: 90%;\n-  }\n-\n-  .action-buttons {\n-    flex-direction: row;\n-    gap: 1rem;\n-  }\n-\n-  .download-btn {\n-    padding: 0.8rem 1.2rem;\n-  }\n-}\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-/* General Section Styles */\n-/* .home-section {\n-  height: 80%;\n-  padding-top: 70px;\n-  padding-bottom: 0;\n-  margin: 20px; \n-}\n-\n .container {\n   max-width: 800px;\n   margin: 0 auto;\n-  padding: 0 2rem;\n-}\n-\n-.content-wrapper {\n   display: flex;\n-  flex-direction: column;\n-  align-items: center;\n-  justify-content: space-between;\n-  padding-top: 3rem;\n-  padding-bottom: 3rem;\n-}\n-\n-.text-section {\n-  text-align: center;\n-}\n-\n-.text-section h1 {\n-  margin-bottom: 1.25rem;\n-}\n-\n-.highlight-text {\n-  background: linear-gradient(90deg, #443d45, #574a59, #e3c9e6);\n-  -webkit-background-clip: text;\n-  color: transparent;\n-}\n-\n-.text-section p {\n-  max-width: 540px;\n-  margin-bottom: 1.5rem;\n-  color: black;\n-}\n-\n-.action-buttons {\n-  display: flex;\n-  flex-direction: column;\n-  gap: 1.25rem;\n-  align-items: center;\n-} */ \n-*{\n-  padding: 0px;\n-  margin: 0px;\n-}\n-\n-body {\n-  background-color: rgb(172, 181, 55);\n-  color: rgb(0, 0, 0);\n-  font-family: Arial, Helvetica, sans-serif;\n-}\n-\n-/* General Section Styles */\n-.home-section {\n-  padding: 100px 20px;\n-  background-color: #f9f9f9;\n-}\n-\n-.container {\n-  max-width: 800px;\n-  margin: 0 auto;\n-  display: flex;\n   justify-content: center;\n }\n \n .content-wrapper {\n"
+                },
+                {
+                    "date": 1731251717505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,13 @@\n   font-family: Arial, Helvetica, sans-serif;\n }\n \n /* General Section Styles */\n+.home-section {\n+  padding: 100px 20px;\n+  background-color: #f9f9f9;\n+}\n \n-\n .container {\n   max-width: 800px;\n   margin: 0 auto;\n   display: flex;\n"
+                },
+                {
+                    "date": 1731251729238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  padding: 100px 20px;\n+  padding: 150px 20px;\n   background-color: #f9f9f9;\n }\n \n .container {\n"
+                },
+                {
+                    "date": 1731251737223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  padding: 150px 20px;\n+  padding: 150px 5px;\n   background-color: #f9f9f9;\n }\n \n .container {\n"
+                },
+                {
+                    "date": 1731251746392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  padding: 150px 5px;\n+  padding: 140px 5px;\n   background-color: #f9f9f9;\n }\n \n .container {\n"
+                },
+                {
+                    "date": 1731251760551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,14 @@\n }\n \n /* General Section Styles */\n .home-section {\n-  padding: 140px 5px;\n+  padding: 140px 10px;\n   background-color: #f9f9f9;\n }\n \n .container {\n-  max-width: 800px;\n+  max-width: 1200px;\n   margin: 0 auto;\n   display: flex;\n   justify-content: center;\n }\n"
+                },
+                {
+                    "date": 1731251806764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n /* General Section Styles */\n .home-section {\n   padding: 140px 10px;\n   background-color: #f9f9f9;\n-  m\n+  ma\n }\n \n .container {\n   max-width: 1200px;\n"
+                },
+                {
+                    "date": 1731254500645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,81 @@\n+*{\n+  padding: 0px;\n+  margin: 0px;\n+}\n+\n+body {\n+  background-color: rgb(255, 255, 255);\n+  color: rgb(0, 0, 0);\n+  font-family: Arial, Helvetica, sans-serif;\n+}\n+\n+/* globals.css */\n+\n+.header {\n+  background-color: #333;\n+  color: whitesmoke;\n+  padding: 10px 0;\n+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n+  position: sticky;\n+  top: 0;\n+  width: 100%;\n+  z-index: 1000;\n+}\n+\n+.container {\n+  max-width: 1200px;\n+  margin: 0 auto;\n+  padding: 0 20px;\n+  display: flex;\n+  align-items: center;\n+  justify-content: space-between;\n+}\n+\n+.navbar {\n+  display: flex;\n+  align-items: center;\n+  gap: 20px; \n+}\n+\n+.hire-button {\n+  background-color: #006db5 ;\n+  color: white;\n+  padding: 10px 10px;\n+  border: none;\n+  border-radius: 5px;\n+  cursor: pointer;\n+  transition: background-color 0.3s ease;\n+  font-size: 1rem;\n+}\n+\n+.hire-button:hover {\n+  background-color:#00dbdb;\n+}\n+\n+.nav {\n+  display: flex;\n+  gap: 80px;\n+  margin-left: 50%;\n+}\n+\n+.nav-link {\n+  font-family: 'Century Gothic', sans-serif;\n+  font-size: 18px;\n+  font-weight: bold;\n+  color: rgb(255, 255, 255);\n+  text-decoration: none;\n+  padding: 10px 15px;\n+  transition: all 0.3s ease;\n+}\n+\n+.nav-link:hover {\n+  background-color: #e0bfbb;\n+  color: white;\n+  box-shadow: 0 0 10px whitesmoke;\n+  border-radius: 5px;\n+}\n+\n+.nav-link.active {\n+  color: #0070f3;\n+  border-bottom: 2px solid #0070f3;\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1731246636238,
+            "name": "Commit-0",
+            "content": "*{\n  padding: \n}"
+        }
+    ]
+}

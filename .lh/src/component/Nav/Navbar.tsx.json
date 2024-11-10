@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/component/Nav/Navbar.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1731251055942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1731251061320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,12 +12,8 @@\n     name: \"About\",\r\n     path: \"/about\",\r\n   },\r\n   {\r\n-    name: \"Services\",\r\n-    path: \"/services\",\r\n-  },\r\n-  {\r\n     name: \"Work\",\r\n     path: \"/work\",\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1731251080162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,39 @@\n+\"use client\";\r\n+\r\n+import Link from \"next/link\";\r\n+import { usePathname } from \"next/navigation\";\r\n+\r\n+const Links = [\r\n+  {\r\n+    name: \"Home\",\r\n+    path: \"/\",\r\n+  },\r\n+  {\r\n+    name: \"About\",\r\n+    path: \"/about\",\r\n+  },\r\n+  {\r\n+    name: \"Contact\",\r\n+    path: \"/contact\",\r\n+  },\r\n+];\r\n+\r\n+const Nav = () => {\r\n+  const pathname = usePathname();\r\n+  console.log(pathname);\r\n+  return (\r\n+    <nav className=\"nav\">\r\n+      {Links.map((LinkItem, index) => {\r\n+        \r\n+        const isActive = pathname === LinkItem.path;\r\n+        return (\r\n+          <Link href={LinkItem.path} key={index} className={`nav-link ${isActive ? \"active\" : \"\"}`}>\r\n+            {LinkItem.name}\r\n+          </Link>\r\n+        );\r\n+      })}\r\n+    </nav>\r\n+  );\r\n+};\r\n+\r\n+export default Nav;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731251086292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,41 @@\n+\"use client\";\r\n+\r\n+import Link from \"next/link\";\r\n+import { usePathname } from \"next/navigation\";\r\n+\r\n+const Links = [\r\n+  {\r\n+    name: \"Home\",\r\n+    path: \"/\",\r\n+  },\r\n+  {\r\n+    name: \"About\",\r\n+    path: \"/about\",\r\n+  },\r\n+  {\r\n+    name: \"Contact\",\r\n+    path: \"/contact\",\r\n+  },\r\n+];\r\n+\r\n+const Nav = () => {\r\n+  const pathname = usePathname();\r\n+\r\n+  console.log(pathname);\r\n+  return (\r\n+    <nav className=\"nav\">\r\n+      {Links.map((LinkItem, index) => {\r\n+\r\n+\r\n+        const isActive = pathname === LinkItem.path;\r\n+        return (\r\n+          <Link href={LinkItem.path} key={index} className={`nav-link ${isActive ? \"active\" : \"\"}`}>\r\n+            {LinkItem.name}\r\n+          </Link>\r\n+        );\r\n+      })}\r\n+    </nav>\r\n+  );\r\n+};\r\n+\r\n+export default Nav;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1731251092002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n         return (\r\n           <Link href={LinkItem.path} key={index} className={`nav-link ${isActive ? \"active\" : \"\"}`}>\r\n             {LinkItem.name}\r\n           </Link>\r\n+          \r\n         );\r\n       })}\r\n     </nav>\r\n   );\r\n"
+                },
+                {
+                    "date": 1731253745005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,86 +38,6 @@\n     </nav>\r\n   );\r\n };\r\n \r\n-export default Nav;\n-\"use client\";\r\n+export default Nav;\r\n \r\n-import Link from \"next/link\";\r\n-import { usePathname } from \"next/navigation\";\r\n-\r\n-const Links = [\r\n-  {\r\n-    name: \"Home\",\r\n-    path: \"/\",\r\n-  },\r\n-  {\r\n-    name: \"About\",\r\n-    path: \"/about\",\r\n-  },\r\n-  {\r\n-    name: \"Contact\",\r\n-    path: \"/contact\",\r\n-  },\r\n-];\r\n-\r\n-const Nav = () => {\r\n-  const pathname = usePathname();\r\n-  console.log(pathname);\r\n-  return (\r\n-    <nav className=\"nav\">\r\n-      {Links.map((LinkItem, index) => {\r\n-        \r\n-        const isActive = pathname === LinkItem.path;\r\n-        return (\r\n-          <Link href={LinkItem.path} key={index} className={`nav-link ${isActive ? \"active\" : \"\"}`}>\r\n-            {LinkItem.name}\r\n-          </Link>\r\n-        );\r\n-      })}\r\n-    </nav>\r\n-  );\r\n-};\r\n-\r\n-export default Nav;\n-\"use client\";\r\n-\r\n-import Link from \"next/link\";\r\n-import { usePathname } from \"next/navigation\";\r\n-\r\n-const Links = [\r\n-  {\r\n-    name: \"Home\",\r\n-    path: \"/\",\r\n-  },\r\n-  {\r\n-    name: \"About\",\r\n-    path: \"/about\",\r\n-  },\r\n-  {\r\n-    name: \"Work\",\r\n-    path: \"/work\",\r\n-  },\r\n-  {\r\n-    name: \"Contact\",\r\n-    path: \"/contact\",\r\n-  },\r\n-];\r\n-\r\n-const Nav = () => {\r\n-  const pathname = usePathname();\r\n-  console.log(pathname);\r\n-  return (\r\n-    <nav className=\"nav\">\r\n-      {Links.map((LinkItem, index) => {\r\n-        const isActive = pathname === LinkItem.path;\r\n-        return (\r\n-          <Link href={LinkItem.path} key={index} className={`nav-link ${isActive ? \"active\" : \"\"}`}>\r\n-            {LinkItem.name}\r\n-          </Link>\r\n-        );\r\n-      })}\r\n-    </nav>\r\n-  );\r\n-};\r\n-\r\n\\ No newline at end of file\n-export default Nav;\n"
+                },
+                {
+                    "date": 1731253752068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,43 +1,34 @@\n+\r\n \"use client\";\r\n \r\n import Link from \"next/link\";\r\n import { usePathname } from \"next/navigation\";\r\n \r\n const Links = [\r\n-  {\r\n-    name: \"Home\",\r\n-    path: \"/\",\r\n-  },\r\n-  {\r\n-    name: \"About\",\r\n-    path: \"/about\",\r\n-  },\r\n-  {\r\n-    name: \"Contact\",\r\n-    path: \"/contact\",\r\n-  },\r\n+  { name: \"Home\", path: \"/\" },\r\n+  { name: \"About\", path: \"/about\" },\r\n+  { name: \"Contact\", path: \"/contact\" },\r\n ];\r\n \r\n const Nav = () => {\r\n   const pathname = usePathname();\r\n \r\n-  console.log(pathname);\r\n   return (\r\n     <nav className=\"nav\">\r\n       {Links.map((LinkItem, index) => {\r\n-\r\n-\r\n         const isActive = pathname === LinkItem.path;\r\n         return (\r\n-          <Link href={LinkItem.path} key={index} className={`nav-link ${isActive ? \"active\" : \"\"}`}>\r\n+          <Link\r\n+            href={LinkItem.path}\r\n+            key={index}\r\n+            className={`nav-link ${isActive ? \"active\" : \"\"}`}\r\n+          >\r\n             {LinkItem.name}\r\n           </Link>\r\n-          \r\n         );\r\n       })}\r\n     </nav>\r\n   );\r\n };\r\n \r\n-export default Nav;\r\n-\r\n+export default Nav;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1731251055942,
+            "name": "Commit-0",
+            "content": "\"use client\";\r\n\r\nimport Link from \"next/link\";\r\nimport { usePathname } from \"next/navigation\";\r\n\r\nconst Links = [\r\n  {\r\n    name: \"Home\",\r\n    path: \"/\",\r\n  },\r\n  {\r\n    name: \"About\",\r\n    path: \"/about\",\r\n  },\r\n  {\r\n    name: \"Services\",\r\n    path: \"/services\",\r\n  },\r\n  {\r\n    name: \"Work\",\r\n    path: \"/work\",\r\n  },\r\n  {\r\n    name: \"Contact\",\r\n    path: \"/contact\",\r\n  },\r\n];\r\n\r\nconst Nav = () => {\r\n  const pathname = usePathname();\r\n  console.log(pathname);\r\n  return (\r\n    <nav className=\"nav\">\r\n      {Links.map((LinkItem, index) => {\r\n        const isActive = pathname === LinkItem.path;\r\n        return (\r\n          <Link href={LinkItem.path} key={index} className={`nav-link ${isActive ? \"active\" : \"\"}`}>\r\n            {LinkItem.name}\r\n          </Link>\r\n        );\r\n      })}\r\n    </nav>\r\n  );\r\n};\r\n\r\nexport default Nav;"
+        }
+    ]
+}
