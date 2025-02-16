@@ -6,7 +6,7 @@ export default function Contact() {
       </header>
 
       <section>
-        <h2>We'd Love to Hear From You</h2>
+        <h2>We Love to Hear From You</h2>
         <p>If you have any questions or want to place a large order, feel free to reach out to us!</p>
 
         <form className="contact-form">
