@@ -17,7 +17,6 @@ export default function About() {
             We are passionate about bringing fresh, authentic food to your table. Our chefs use only the finest ingredients to create memorable dining experiences. 
             Established in [Year], our journey began with a simple goal – to create a place where food lovers could gather and enjoy quality meals made with love.
           </p>
-          <img src="images/story.jpg" alt="Our Story" className="about-image" />
         </section>
       </div>
     </>
